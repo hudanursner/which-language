@@ -120,6 +120,21 @@ Open your terminal as Administrator and run:
 ```powershell
 .\scripts\install_windows.ps1
 
+### 🍏 macOS Setup
+
+For macOS users, we provide an automated setup script that uses **Homebrew** to seamlessly install all required languages, compilers, and sub-dependencies. The script is idempotent, meaning it will safely skip packages that are already installed on your system.
+
+**Prerequisites:**
+Ensure you have [Homebrew](https://brew.sh/) installed before running the script.
+
+**Installation Steps:**
+1. Open your terminal in the root directory of the project.
+2. Make the script executable:
+   ```bash
+   chmod +x scripts/install_mac.sh
+
+
+
 ## What is already generalized
 
 ### Multiple problems
@@ -143,7 +158,7 @@ problems/<problem>/
 - phase-specific tests
 - prompt templates
 
-### Multiple codexes
+#### Multiple codexes
 
 Codexes use an adapter interface:
 
